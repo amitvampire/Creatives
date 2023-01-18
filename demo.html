@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="primary-page" class="primary-page-class">
+        <div id="main-section" class="primary-section-class">
+            <h2 id="header-class" class="main-heading"> Filter by </h2>
+            <div id="enter-data-class" class="input-section">
+                <div id="main-section-color-options" class="color-options-class">
+                </div>
+                <div class="input-title-subtitle">
+                    <h3 class="title-subtitle-search-box">title / subtitle</h3>
+                    <input id="search-title-subtile" placeholder="search across title and subtitle"
+                        class="input-box-class" />
+                </div>
+            </div>
+
+            <div>
+                <span id="filled-cart-value" class="filled-cart-value-class">
+                </span>
+            </div>
+            <button id="add-card-button" class="button"> + Add Creative </button>
+            <div id="cards-list"></div>
+
+        </div>
+        <div id="form-section" class="form-section-class hide-form">
+            <form id="form" class="form-class">
+                <span class="form-header">
+                    <h2>heading</h2>
+                    <button id="close-form" class="close-form-button"><b>X</b></button>
+                </span>
+                <label for="title"><b>title</b></label>
+                <input type="text" id="title" name="title" placeholder="This is a title" required>
+                <label for="subtitle"><b>subtitle</b></label>
+                <input type="text" id="subtitle" name="subtitle" placeholder="This is a subtitle" required>
+                <div id="form-section-color-options">
+                </div>
+                <input type="submit" value="Done" class="button submit-button">
+            </form>
+        </div>
+    </div>
+</body>
+<script type= "module" src="index.js"></script>
+
+</html>

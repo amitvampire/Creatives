@@ -1,0 +1,212 @@
+
+ body {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+ }
+
+ .primary-page-class {
+    border: 3px solid black;
+    border-radius: 6px;
+    display: flex;
+    max-width: 740px;
+ }
+
+ .color-heading {
+    margin-top: 0px;
+ }
+
+ .hide-form {
+    display: none;
+ }
+
+ .show-form {
+    display: block;
+ }
+
+.title-subtitle-seacrh-box {
+    margin-top: 0px;
+}
+
+.primary-section-class {
+    max-height: 440PX;
+    overflow: auto;
+    max-width: 70%;
+    padding: 20px;
+
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input-box-class {
+    height: 15px;
+    width: auto;
+}
+
+.title-subtitle-search-box {
+    margin-top: 0px;
+}
+
+.filled-cart-value-class {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.status-cart-value-container {
+    display: flex;
+    gap: 0;
+    border: 2px solid black;
+    border-radius: 6px;
+    min-width: 70%;
+    padding-left: 0px;
+    height: 15px;
+
+}
+.status-cart-value-item {
+    list-style-type: none;
+    width: 20%;
+}
+
+.cart-value-content {
+    min-width: 30%;
+}
+
+.filled {
+    background-color: black;
+}
+
+.color-options-class {
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.color-card-parent {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 0;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.active {
+    border: 2px solid black;
+}
+
+.inactive {
+    border: 2px solid white;
+}
+
+.color-card {
+    border-radius: 14px;
+    height: 20px;
+    width: 20px;
+    list-style-type: none;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.color-card-div {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.card-info-conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding-left: 0px;
+}
+
+.info-card {
+    width: 70%;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 20px 0 20px 0;
+}
+
+.info-card-title {
+    text-align: start;
+    padding: 10p;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.info-card-subtitle {
+    margin-top: 0px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.form-section-class {
+    border-left: 2px solid black;
+    width: 200px;
+    padding: 30px;
+    max-height: 440px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-form-button {
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-header h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.form-class {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.submit-button {
+    height: auto;
+    width: 50%;
+}
+
